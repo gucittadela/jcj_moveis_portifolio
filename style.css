@@ -1,0 +1,112 @@
+.img-page1{
+    width: 322px;
+    height: 322px;
+}
+div.card{
+    border: none;
+}
+.desactive{
+    display: none;
+}
+#sala{
+    display: none;
+}
+
+#sala.active{
+    display: block;
+}
+#cozinha{
+    display: none;
+}
+
+#cozinha.active{
+    display: block;
+}
+#banheiro{
+    display: none;
+}
+
+#quarto.active{
+    display: block;
+}
+#quarto{
+    display: none;
+}
+
+#banheiro.active{
+    display: block;
+}
+.btn-primary{
+    background-color: #b22b45 !important;
+    border: none !important;
+    width: 100px;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+.img-fundo img{
+    width: 612px;
+    height: 612px;
+    z-index: -1;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -1%;
+}
+.card-principal img{
+    width: 468px;
+    height: 468px;
+}
+.color{
+    color: #b22b45;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+div i {
+    cursor: pointer;
+}
+.card-secundario{
+    overflow: hidden;
+}
+.card-secundario img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.card-secundario img:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+img.img-thumbnail{
+    border: none;
+}
+
+.btn-voltar:hover{
+    color: #b22b45;
+    background-color: #fff;
+}
+
+@media screen and (max-width:640px) {
+    .img-page1{
+        width: 200px;
+        height: 200px;
+    }
+    img.img-thumbnail{
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+    .card-principal img{
+        width: 300px;
+        height: 300px;
+    }
+    .img-fundo img{
+        position: absolute;
+        width: 500px;
+        height:400px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .color{
+        font-size: 0.8em ;
+    }
+}
